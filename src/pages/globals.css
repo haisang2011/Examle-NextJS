@@ -14,3 +14,15 @@ a {
 * {
   box-sizing: border-box;
 }
+
+input[type="text"] {
+  padding: 15px;
+  font-weight: lighter;
+  font-style: italic;
+  color: rgb(56, 54, 54);
+}
+
+input[type="text"]::-webkit-input-placeholder {
+  opacity: 0.6;
+  font-size: 15px;
+}

@@ -1,0 +1,43 @@
+.card {
+    display: flex;
+    margin: 25px;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 500px;
+    height: auto;
+    border: 1px solid #bbdfc8;
+    box-shadow: 2px 2px 2px 2px #bbdfc8;
+    padding: 1rem;
+}
+
+.card > .card__userId,
+.card > .card__id,
+.card > .card__title,
+.card > .card__completed {
+    color: #1687a7;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 10px;
+}
+
+.card__userId__span__done{
+    display: inline-block;
+    padding: 3px 20px;
+    background: green;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 2px 3.5px 2.5px gray;
+}
+
+.card__userId__span__yet{
+    display: inline-block;
+    padding: 3px 20px;
+    background: rgba(226, 14, 14, 0.897);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 2px 3.5px 2.5px gray;
+}

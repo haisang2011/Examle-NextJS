@@ -1,0 +1,36 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 8vh;
+    background-color: black;
+}
+
+.box {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #FFF;
+    box-shadow: 1px 1px 2.5px #FFF;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from   {background-color:red; left:0px; top:0px;}
+    to  {background-color:yellow; left:100vw; top:0px;}
+}
+
+.navbar__list {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__list > li {
+    margin : 0 10px;
+    color: #FFF;
+    list-style: none;
+}
